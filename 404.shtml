@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Error 404</title>
+<style>
+	.error-msg {
+		font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		font-weight: 700;
+		text-decoration: none;
+	}
+</style>
+</head>
+<body>
+	<div class="error-msg">
+    	<span style="color: #990000; font-size: 14pt" >Error 404: Resource Not Found!</span><br /><br />
+        The page you requested for is unavailable.<br /><br />
+        To go to the website home page, <a href="http://sristi.org.in/" style="color: #617f10" class="error-msg">click here.</a><br />
+        For any queries, please mail to the site administrator at <a style="color: #617f10" href="mailto: admin@sristi.org.in" class="error-msg">admin@sristi.org.in</a><br />
+    </div>
+</body>
+</html>

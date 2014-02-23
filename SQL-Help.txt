@@ -1,0 +1,14 @@
+create table sristi2010_members(mid bigint(20) not null primary key auto_increment, emailid varchar(256) not null, password varchar(32) not null, privilege varchar(16) not null, firstname varchar(128) not null, lastname varchar(128) not null, college varchar(1024), year varchar(32) not null, city varchar(256) not null, address varchar(2048), phone varchar(20), interests varchar(128));
+
+create table sristi2010_forum(threadid bigint(10) not null, level int(2) not null, treeid varchar(200) not null, 
+replies int(5) not null, repliesdeleted int(5) not null, replyto varchar(256) not null, dateofentry datetime not null, 
+subject varchar(256) not null, author varchar(256) not null, content longtext not null, editlocked char(1) not null);
+
+create table sristi2010_updates(uid bigint(10) not null primary key auto_increment,udatetime datetime not null,utext varchar(1024) not null);
+
+create table sristi2010_general(attribname varchar(64) not null unique, attribvalue varchar(64) not null);
+
+create table sristi2010_chat(cid bigint(20) primary key auto_increment, cuser varchar(256), cdatetime datetime, ctext varchar(1024));
+
+create table sristi2010_roboreg(mid bigint(20) not null primary key auto_increment, firstname varchar(128) not null, lastname varchar(128) not null, college varchar(1024), groupname varchar(128) not null,address varchar(2048), phone varchar(20), emailid varchar(256) not null, saveaqua varchar(4), robosoccer varchar(4), locomotion varchar(4), round varchar(2));
+
